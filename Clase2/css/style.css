@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Varela+Round&display=swap');
+
+
+
+/*--------------------------------------------------------------------------------Body--------------------------------------------------------------------------------*/
+
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Varela Round', sans-serif;
+    min-height: 800px;
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #ffd000;
+
+    
+    
+    
+}
+
+.body__Index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 50px;
+}
+
+
+
+.body__Merch{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 50px;
+}
+
+
+.body__Videos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 50px;
+}
+
+.body__Contactos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 50px;
+}
+
+.body__Social{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 50px;
+}
+/*--------------------------------------------------------------------------------Header--------------------------------------------------------------------------------*/
+
+.header__Principal{
+
+    text-decoration-line: underline;
+    padding: 10px;
+
+}
+
+.header__Home {
+    text-indent: 5px;
+
+}
+
+.mainSocial__header{
+    margin-top: 30px;
+}
+
+.mainContactos__header{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mainMerch__header{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.mainVideos__header{
+    margin-top: 30px;
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------NAV--------------------------------------------------------------------------------*/
+
+.nav {
+    
+    display: flex;
+    justify-content: center;
+
+
+    
+}
+
+
+.nav__links {
+    list-style: none;
+    display: inline-block;
+    
+    
+    
+}
+
+.nav__item{
+    display: inline-block;
+    
+}
+
+
+.nav__link {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #FFD700;
+}
+
+.nav__link--active {
+    font-weight: 900;
+    border-bottom: 1px solid yellow;
+    
+}
+
+
+
+/*--------------------------------------------------------------------------------Main--------------------------------------------------------------------------------*/
+
+
+
+.formulario{
+
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+
+.formulario__label {
+    display: inline-block;
+    
+    
+}
+
+
+.formulario__nombre{
+    width: 300px;
+    clear: both;
+    
+}
+
+.formulario__inputNombre{
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 100%;
+    clear: both;
+}
+
+.formulario__mail{
+    width: 300px;
+    clear: both;
+}
+
+.formulario__inputMail{
+    opacity: 0.7;
+    border-radius: 10px;
+    width: 100%;
+    clear: both;
+}
+
+.formulario__checkbox{
+    display: inline-block; 
+    text-align: left;
+    margin-right: auto;
+}
+
+
+
+.formulario__descripcion__textarea{
+    opacity: 0.5;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+.header3{
+    text-align: center;
+}
+
+.image{
+    display:block;
+    margin: auto;
+    width: 35%;
+    height: auto;
+    opacity: .8;
+    max-width: 90%;
+    max-height: 90%;
+
+
+
+}
+
+.button{
+    text-align: center;
+
+}
+
+
+.galeria {
+
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 32px 0;
+
+}
+
+
+.galeria__item{
+    margin: 0 10px;
+    flex-basis: calc(50% - 20px);
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    
+
+}
+
+.galeria__imagen{
+    display: block;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.galeria__texto{
+    display: block;
+    
+    
+}
+
+
+
+.mainSocial{
+    text-align: center;
+    
+    
+}
+
+
+
+
+.mainVideos{
+    text-align: center;
+    
+}
+
+.MainVideos__video{
+    max-width: 90%;
+    max-height: 90%;
+    width: 800px;
+    height: 400px;
+    margin-top: 3%;
+}
+
+
+
+.iconos{
+    margin-top: 13%;
+
+}
+
+
+
+.iconos__item{
+    width:225px;
+    display:inline-block;
+    margin-right: 5 0px;
+    margin-left: 50px;
+}
+
+
+.iconos__texto{
+    margin:10px 0 20px 0;
+}
+
+.iconos__item:hover{
+    transform: scale(1.1);
+
+ 
+}
+/*--------------------------------------------------------------------------------Footer--------------------------------------------------------------------------------*/
+
+
+.footer {
+    bottom:0;
+    left: 0;
+    width:100%;  
+    position: fixed;
+    
+    
+    
+    
+}
+
+.footer__nav {
+    height: 20px;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.footer_text{
+    color: white;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------Medias--------------------------------------------------------------------------------*/
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    .header__Principal{
+        font-size: x-large;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .header3{
+        margin-top: 60px;
+    }
+
+
+    .nav__item{
+        font-size: medium;
+               
+
+            
+    }
+
+    .nav{
+        display: flex;
+        margin-right: 40px;
+        
+
+    }
+
+
+    .image{
+        width: 120px;
+        height: 160px;
+    }
+
+    .footer{
+        font-size:small;
+    }
+
+    .body__Index{
+        margin-top: 40px;
+    }
+
+
+
+
+    .mainMerch__header{
+        margin-top: 60px;
+        font-size: xx-large;
+    }
+
+    .galeria__imagen{
+        width: 120px;
+        height: 120px;
+    }
+
+    .mainVideos__header{
+        margin-top: 60px;
+    }
+
+    .MainVideos__video{
+        height: auto;
+        width: auto;
+    }
+
+    .mainSocial__header{
+        margin-top: 60px;
+
+    }
+
+    .iconos{
+        margin-right: 20px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .nav{
+        text-align: center;
+        margin-right: 40px;
+
+    }
+
+    .footer{
+        font-size:small;
+    }
+
+    .header3{
+        margin-top: 60px;
+    }
+    
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .nav{
+        text-align: center;
+        margin-right: 40px;
+
+    }
+    
+    .header3{
+        margin-top: 60px;
+    }
+
+    .image{
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer{
+        font-size:small;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .header3{
+        margin-top: 60px;
+    }
+
+    .image{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
